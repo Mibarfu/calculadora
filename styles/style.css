@@ -1,90 +1,90 @@
 #calculator {
-    position:relative;
-    top: 1em;
-    left: 1em;
-    width: 20em;
-    height: 30em;
-    box-shadow: 0 0 7px 7px rgb(230, 230, 230);
-    border-radius: 10px;
+  position: relative;
+  top: 1em;
+  left: 1em;
+  width: 20.2em;
+  height: max-content;
+  box-shadow: 0 0 7px 7px rgb(230, 230, 230);
+  border-radius: 10px;
 }
-    #display {
-        height: 22%;
-        width: calc(100% - 0.26em);
-        padding: 0 0.13em;
-        background-color: #4c4c4c;
-        color:rgb(192, 192, 192);
-        font-family: overpass;
-        font-weight: 100;
-        font-size: 4.5em;
-        text-align: right;
-        line-height: 8.6rem;
-        user-select: none;
-        overflow:none;
-        border-radius: 10px 10px 0 0;
-        white-space: nowrap;
-    }
-        #pre-operation {
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 1.5rem;
-            top: 0;
-            left: 0;
-            padding-left: .3em;
-            color:rgba(238, 206, 163, 0.6);
-            font-family: overpass;
-            font-size: 1.4em;
-            text-align: left;
-            line-height: 1.5em;
-            user-select: none;
-        }
-    
-    #buttons {
-        height: 78%;
-        width: calc(100% - 5px);
-        margin-left: 5px;
-        cursor: pointer;
-        user-select: none;
-    }
-        .button {
-            display: inline-block;
-            height: calc((100% / 5) - 1px);
-            width: 25%;
-            margin-top: -1px;
-            margin-left: -5px;
-            background-color: rgb(225, 225, 225);
-            color: rgb(76, 76, 76);
-            font-family: overpass;
-            font-size: 2em;
-            line-height: 2.5em;
-            text-align: center;
-            font-weight: 300;
-            vertical-align: top;
-            border: 1px solid rgb(180, 180, 180);
-        }
-            .digit:hover, .function:hover, .dot:hover {
-               box-shadow: inset 0 0 2px 2px rgba(239, 189, 8, 0.3)
-            }
-            .operator:hover {
-                box-shadow: inset 0 0 2px 2px rgba(143, 113, 5, 0.3)
-            }
-            .zero {
-                width: calc(50% + 1px);
-            }
-            .function {
-                background-color: #d6d6d6;
-            }
-            .operator {
-                background-color: #f79130;
-                font-size: 2em;
-                font-weight: 100;
-                line-height: 2.5em;
-            }
-            #zero {
-                border-radius: 0 0 0 10px;
-            }
-            #equal {
-                border-radius: 0 0 10px 0;
-            }
+#display {
+  height: 23%;
+  width: calc(100% - 0.26em);
+  padding: 0 0.13em;
+  background-color: #4c4c4c;
+  color: rgb(192, 192, 192);
+  font-family: overpass;
+  font-weight: 100;
+  font-size: 4.5em;
+  text-align: right;
+  line-height: 8.6rem;
+  user-select: none;
+  overflow: none;
+  border-radius: 10px 10px 0 0;
+  white-space: nowrap;
+}
+#pre-operation {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1.5rem;
+  top: 0;
+  left: 0;
+  padding-left: 0.3em;
+  color: rgba(238, 206, 163, 0.6);
+  font-family: overpass;
+  font-size: 1.4em;
+  text-align: left;
+  line-height: 1.5em;
+  user-select: none;
+}
 
-
+#buttons {
+  height: 78%;
+  width: calc(100% - 5px);
+  margin-left: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.button {
+  display: inline-block;
+  height: calc((100% / 5) - px);
+  width: 24.7%;
+  margin-top: -1px;
+  margin-left: -5px;
+  background-color: rgb(225, 225, 225);
+  color: rgb(76, 76, 76);
+  font-family: overpass;
+  font-size: 2em;
+  line-height: 2.5em;
+  text-align: center;
+  font-weight: 300;
+  vertical-align: top;
+  border: 1px solid rgb(180, 180, 180);
+}
+.digit:hover,
+.function:hover,
+.dot:hover {
+  box-shadow: inset 0 0 2px 2px rgba(239, 189, 8, 0.3);
+}
+.operator:hover {
+  box-shadow: inset 0 0 2px 2px rgba(143, 113, 5, 0.3);
+}
+.zero {
+  width: calc(49.7% + 1px);
+}
+.function {
+  background-color: #d6d6d6;
+}
+.operator {
+  background-color: #f79130;
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 2.5em;
+}
+#zero {
+  border-radius: 0 0 0 10px;
+}
+#equal {
+  border-radius: 0 0 10px 0;
+}
