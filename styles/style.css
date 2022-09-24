@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 #calculator {
   position: relative;
   top: 1em;
